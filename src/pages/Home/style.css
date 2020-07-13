@@ -1,0 +1,28 @@
+html {
+  font-size: 10px;
+}
+.container {
+  margin: 0 auto; /*center conent horizontally*/
+  max-width: 1000px;
+  padding: 40px;
+}
+* {
+  box-sizing: border-box; /*Adds border withtin set width height parameters */
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(36, 37, 36);
+  color: white;
+}
+.title {
+  font-size: 4.2rem;
+  text-align: center;
+}
+p {
+  font-size: 1.6rem;
+}
+
+small {
+  font-size: 1.2rem;
+}
