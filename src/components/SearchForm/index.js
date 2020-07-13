@@ -7,8 +7,6 @@ export default function Search() {
     console.log("submitting search query");
   };
 
-  };
-
   return (
     <form className="form" onSubmit={SearchMovies}>
       <label className="label" htmlFor="query">
