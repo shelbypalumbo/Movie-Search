@@ -6,10 +6,13 @@ function Home() {
   console.log("home");
 
   return (
-    <div className="container">
-      <h1 className="title"> React Movie Search</h1>
-      <Search />
-    </div>
+    <>
+      <h1 className="title red"> React Movie Search</h1>
+
+      <div className="container">
+        <Search />
+      </div>
+    </>
   );
 }
 export default Home;

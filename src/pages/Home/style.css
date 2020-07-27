@@ -1,6 +1,7 @@
 html {
   font-size: 10px;
 }
+
 .container {
   margin: 0 auto; /*center conent horizontally*/
   max-width: 1000px;
