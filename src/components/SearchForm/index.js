@@ -34,7 +34,7 @@ export default function Search() {
           type="text"
           className="movie-input"
           name="query"
-          placeholder="i.e Fear Lake"
+          placeholder="i.e Cape Fear"
           value={query}
           onChange={e => setQuery(e.target.value)}
         />
