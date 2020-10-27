@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import Search from "../../components/SearchForm";
 
-function Home() {
+const Home = () => {
   console.log("home");
 
   return (
@@ -14,5 +14,5 @@ function Home() {
       </div>
     </>
   );
-}
+};
 export default Home;

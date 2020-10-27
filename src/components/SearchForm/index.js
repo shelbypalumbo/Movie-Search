@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Moment from "react-moment";
 import "./style.css";
 
-export default function Search() {
+const Search = () => {
   //useState manage state in a functional component
   const [query, setQuery] = useState("");
   const [movies, setMovies] = useState([]); //initial state is and empty array []
@@ -42,6 +42,7 @@ export default function Search() {
           Search <i className="fas fa-film"></i>
         </button>
       </form>
+
       <div className="card-list">
         {movies.map(movie => (
           <div className="card" key={movie.id}>
@@ -70,4 +71,6 @@ export default function Search() {
       </div>
     </>
   );
-}
+};
+
+export default Search;
